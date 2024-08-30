@@ -11,6 +11,7 @@ namespace WebAPI_Student.Controllers
     [ApiController]
     public class StudentAPIController : ControllerBase
     {
+    //Thi is student API controller
         private readonly StudentsApiContext _db;
         public StudentAPIController(StudentsApiContext db)
         {
